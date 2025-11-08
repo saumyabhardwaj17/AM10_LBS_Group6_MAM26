@@ -46,8 +46,8 @@ uploaded_2020 = None
 #     uploaded_2020 = st.sidebar.file_uploader("Upload 2020 county-level CSV", type=["csv"])
 
 # Default paths (you can edit)
-DEFAULT_2024 = "./data/2024_US_County_level_Presidential_Results.csv"
-DEFAULT_2020 = "./data/2020_US_County_level_Presidential_Results.csv"
+DEFAULT_2024 = "2024_US_County_level_Presidential_Results.csv"
+DEFAULT_2020 = "2020_US_County_level_Presidential_Results.csv"
 
 # -------------------------
 # Load Data (with errors surfaced)
