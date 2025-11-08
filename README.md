@@ -29,7 +29,7 @@ This project provides interactive dashboards for visualizing US presidential ele
    ```
 
 3. **Data files:**
-   - Data files are expected in the `./data` folder.
+   - Data files are expected in the same folder.
 
 ## Usage
 
@@ -46,3 +46,4 @@ This project provides interactive dashboards for visualizing US presidential ele
 
 Please Note that this project has been done by LBS Students as part of their assignment.
 Sincerely, Group 6, MAM'26.
+
