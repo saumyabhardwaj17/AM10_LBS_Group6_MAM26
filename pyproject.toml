@@ -1,0 +1,37 @@
+[project]
+name = "am10-code"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "country-converter>=1.3.2",
+    "dash>=3.2.0",
+    "dash-bootstrap-components>=2.0.4",
+    "datetime>=5.5",
+    "flask-caching>=2.3.1",
+    "folium>0.12",
+    "geopandas>=1.1.1",
+    "geopy>=2.4.1",
+    "janitor>=0.1.1",
+    "mapbox>=0.18.1",
+    "mapclassify>=2.10.0",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.4",
+    "osmnx>=2.0.6",
+    "pandas>=2.3.3",
+    "plotly>=6.3.1",
+    "pooch>=1.8.2",
+    "pydeck>=0.9.1",
+    "pyjanitor>=0.31.0",
+    "routingpy>=1.3.0",
+    "seaborn>=0.13.2",
+    "shapely>=2.1.2",
+    "skimpy>=0.0.18",
+    "statsmodels>=0.14.5",
+    "streamlit>=1.50.0",
+    "vega-datasets>=0.9.0",
+    "watchdog>=6.0.0",
+    "wbgapi>=1.0.12",
+    "yfinance>=0.2.66",
+]
