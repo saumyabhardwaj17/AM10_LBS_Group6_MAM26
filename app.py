@@ -46,8 +46,8 @@ uploaded_2020 = None
 #     uploaded_2020 = st.sidebar.file_uploader("Upload 2020 county-level CSV", type=["csv"])
 
 # Default paths (you can edit)
-DEFAULT_2024 = "2024_US_County_level_Presidential_Results.csv"
-DEFAULT_2020 = "2020_US_County_level_Presidential_Results.csv"
+DEFAULT_2024 = "https://raw.githubusercontent.com/saumyabhardwaj17/AM10_LBS_Group6_MAM26/refs/heads/main/2024_US_County_Level_Presidential_Results.csv"
+DEFAULT_2020 = "https://raw.githubusercontent.com/saumyabhardwaj17/AM10_LBS_Group6_MAM26/refs/heads/main/2020_US_County_Level_Presidential_Results.csv"
 
 # -------------------------
 # Load Data (with errors surfaced)
@@ -519,3 +519,4 @@ with tab2:
 with tab3:
     from visualization3_dark import run_visualization_3  # optional if kept in a separate file
     run_visualization_3()
+
